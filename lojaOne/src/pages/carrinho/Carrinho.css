@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.carrinho-container {
+  position: relative;
+  top: 1rem;
+  width: 100%;
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+  padding: 2rem;
+}
+
+.carrinho-table {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.carrinho-table th, .carrinho-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.carrinho-table th {
+  background-color: #f0f0f0;
+}
+
+.carrinho-table td {
+  background-color: #fff;
+}
+
+.carrinho-table button {
+  padding: 10px;
+  background-color: #5995fd;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.carrinho-table button:hover {
+  background-color: #4d84e2;
+}
+
+@media (max-width: 768px) {
+  .carrinho-table {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .carrinho-table {
+    font-size: 0.6rem;
+  }
+}

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1e8a1cff-051f-4872-95e2-0a9e82efe00a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/AcademicoLoginInf3anApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/LojaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/config/CorsConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/config/CorsConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/controller/ClienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/controller/FuncionarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/controller/FuncionarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/controller/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/dto/CarrinhoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/dto/CarrinhoDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/dto/ClienteCarrinhoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/dto/ClienteCarrinhoDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/dto/CompraDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/dto/CompraDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/dto/ProdutoCarrinhoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/dto/ProdutoCarrinhoDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/dto/ProdutoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/dto/ProdutoDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/dto/UsuarioDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/dto/UsuarioDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/exceptions/AppExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/exceptions/AppExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/exceptions/BadRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/exceptions/BadRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/exceptions/ErrorMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/exceptions/ErrorMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/exceptions/NotFound.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/exceptions/NotFound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/filter/CustomAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/filter/CustomAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/filter/CustomAuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/filter/CustomAuthorizationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/model/Carrinho.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/model/Carrinho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/model/Compra.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/model/Compra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/model/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/model/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/model/Papel.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/model/Papel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/model/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/model/ProdutoCarrinho.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/model/ProdutoCarrinho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/model/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/repository/CarrinhoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/repository/CarrinhoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/repository/ClienteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/repository/ClienteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/repository/CompraRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/repository/CompraRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/repository/PapelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/repository/PapelRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/repository/ProdutoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/repository/ProdutoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/repository/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/repository/UsuarioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/scheduler/CarrinhoScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/scheduler/CarrinhoScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/service/CarrinhoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/service/CarrinhoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/service/CarrinhoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/service/CarrinhoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/service/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/service/ClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/service/ClienteServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/service/ClienteServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/service/ProdutoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/service/ProdutoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/service/ProdutoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/service/ProdutoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/service/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/service/UsuarioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/academicologininf3a/service/UsuarioServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/main/java/com/itb/lip2/loja/service/UsuarioServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/test/java/com/itb/lip2/academicologininf3a/AcademicoLoginInf3aApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/academico-login-inf3a-main/academico-login-inf3a-main/src/test/java/com/itb/lip2/loja/AcademicoLoginInf3aApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lojaOne/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lojaOne/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lojaOne/Key/key1.jks" beforeDir="false" afterPath="$PROJECT_DIR$/lojaOne/Key/key1.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lojaOne/android/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lojaOne/android/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lojaOne/android/app/capacitor.build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lojaOne/android/app/capacitor.build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lojaOne/android/app/release/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/lojaOne/android/app/release/output-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lojaOne/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lojaOne/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lojaOne/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lojaOne/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lojaOne/android/capacitor.settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lojaOne/android/capacitor.settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lojaOne/src/components/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/lojaOne/src/components/footer/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lojaOne/src/components/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/lojaOne/src/components/header/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lojaOne/src/pages/Teste/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/lojaOne/src/pages/Teste/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lojaOne/src/pages/cadastro/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/lojaOne/src/pages/cadastro/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lojaOne/src/service/AuthContext.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lojaOne/src/service/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/lojaOne/src/service/api.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2pAQiWz2PIsb4y7a8D3ni8C4aNV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/marco/Documents/work/academico-login-inf3a-main",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.227" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.227" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e8a1cff-051f-4872-95e2-0a9e82efe00a" name="Changes" comment="" />
+      <created>1732206528906</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732206528906</updated>
+      <workItem from="1732206530578" duration="40000" />
+    </task>
+    <servers />
+  </component>
+</project>

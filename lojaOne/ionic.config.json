@@ -1,0 +1,8 @@
+{
+    "name": "loja",
+    "integrations": {
+      "capacitor": {}
+    },
+    "type": "react"
+  }
+  

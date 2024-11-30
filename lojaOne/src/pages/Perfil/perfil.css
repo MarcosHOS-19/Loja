@@ -1,0 +1,89 @@
+.container_page_perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .perfil-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-field {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+  }
+  
+  input:disabled {
+    background-color: #eee;
+    cursor: not-allowed;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Adicionado CSS responsivo para iPhone 12 */
+@media only screen and (max-width: 390px) {
+    .container_page_perfil {
+      padding: 10px;
+    }
+    
+    form {
+      width: 100%;
+    }
+    
+    .input-field {
+      margin-bottom: 10px;
+    }
+    
+    label {
+      font-size: 16px;
+    }
+    
+    input {
+      padding: 8px;
+      font-size: 14px;
+    }
+    
+    button {
+      padding: 8px 15px;
+      font-size: 14px;
+    }
+  }

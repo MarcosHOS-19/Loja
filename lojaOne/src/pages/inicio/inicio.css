@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container_page {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  
+}
+
+.container3 {
+  width: 100%;
+  height: 560px;
+  background-color: #eef1eb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.teste {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.frases_inicio {
+  max-width: 40%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.titulo_inicio {
+  font-size: 2.3rem; /* Define um tamanho de fonte grande para o título */
+  font-weight: bold; /* Define um peso de fonte forte para o título */
+  text-transform: uppercase;
+  white-space: nowrap; /* Adiciona essa propriedade para que o título não quebre linha */
+  line-height: 1.2; /* Define uma linha de altura para o título */
+  margin-bottom: 10px; /* Define uma margem inferior para o título */
+  display: flex; 
+    flex-direction: row;
+}
+
+.subtitulo_inicio {
+  font-size: 1.3rem; /* Define um tamanho de fonte para o subtítulo */
+  color: #333; /* Define uma cor para o subtítulo */
+  line-height: 1.5; /* Define uma linha de altura para o subtítulo */
+  margin-bottom: 20px; /* Define uma margem inferior para o subtítulo */
+  display: flex; 
+  flex-direction: row;
+  word-wrap: break-word;
+}
+
+.btn_inicio {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px 20px;
+  border: none;
+   cursor: pointer;
+  font-size: 1.2rem; /* Define um tamanho de fonte para o botão */
+  font-weight: bold; /* Define um peso de fonte forte para o botão */
+}
+
+.btn_inicio:hover {
+  background-color: #555;
+}
+
+.slider_inicio {
+  width: 100%;
+  max-width: 40%;
+  
+}
+
+.slider_inicio .img_inicio {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  
+}
+
+.container4 {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 1rem; /* Adiciona um padding ao container */
+}
+
+.v {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+
+.caixa {
+  display: grid; /* Usando grid layout */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Colunas responsivas */
+  gap: 20px; /* Espaçamento entre os itens */
+}
+
+.carde {
+  background-color: red;
+  height: 300px;
+}
+
+@media (max-width: 870px) {
+  .caixa {
+    gap: 15px; /* Reduz o espaçamento entre os cartões */
+  }
+  .slider_inicio {
+    display: none; /* Esconde o slider quando a tela é menor que 570px */
+  }
+}
+
+@media (max-width: 570px) {
+  .caixa {
+    gap: 10px; /* Reduz ainda mais o espaçamento entre os cartões */
+  }
+
+  .carde {
+    width: 100%; /* Garante que os cartões ocupem a largura completa da tela */
+  }
+
+  .frases_inicio {
+    margin-left: -25px;
+    margin-bottom: -10px;
+    max-width: 30rem;
+  }
+
+  .slider_inicio {
+    display: none; /* Esconde o slider quando a tela é menor que 570px */
+  }
+
+  .titulo_inicio {
+    margin-left: -2rem;
+    font-size: 1.7rem; /* Reduz o tamanho do título para que ele caiba na tela */
+  }
+
+  .subtitulo_inicio {
+    font-size: 1.4rem; /* Reduz o tamanho do subtítulo para que ele caiba na tela */
+    word-wrap: break-word;
+  }
+
+  .btn_inicio {
+    font-size: 1rem; /* Reduz o tamanho do botão para que ele caiba na tela */
+    left: -1rem;
+  }
+
+  .frases_inicio {
+    text-align: center; /* Alinha o texto ao centro */
+  }
+}

@@ -1,0 +1,1 @@
+ALTER TABLE produto_carrinho ADD compra_id BIGINT;

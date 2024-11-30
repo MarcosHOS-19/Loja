@@ -1,0 +1,25 @@
+/*FOOTER.CSS*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logu{
+  color: #3a1d1d;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  text-decoration: none;
+  transform: translate(0%, 0%);
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  min-height: 50px;
+  background: linear-gradient(245.59deg, #6a4686 0% 28.53%, #230d47 75.52%);
+  z-index: 999;
+  border: none;
+}

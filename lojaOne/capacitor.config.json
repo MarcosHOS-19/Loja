@@ -1,0 +1,8 @@
+{
+    "appId": "io.ionic.loja",
+    "appName": "loja",
+    "bundledWebRuntime": false,
+    "npmClient": "npm",
+    "webDir": "dist",
+    "cordova": {}
+  }

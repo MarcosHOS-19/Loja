@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container1 {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.produto-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+.title {
+  font-size: 2rem;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.input-field1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field1 label {
+  margin-bottom: 5px;
+}
+
+.input-field1 input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.input-field1 input:focus {
+  outline: none;
+  border-color: #aaa;
+}
+
+.btn2 {
+  width: 100%;
+  padding: 10px;
+  background-color: #5995fd;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background-color: #4d84e2;
+}
+
+@media (max-width: 768px) {
+  .produto-form {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .produto-form {
+    padding: 0.5rem;
+  }
+}

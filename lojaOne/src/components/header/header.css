@@ -1,0 +1,83 @@
+/*HEADER.CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between; /* Space between logo and icons */
+  align-items: center;
+  width: 100%;
+  min-height: 50px;
+  background: linear-gradient(245.59deg, #6a4686 0% 28.53%, #230d47 75.52%);
+  position: fixed;
+  z-index: 994;
+  top: 0;
+  padding: 0 20px; /* Add padding for better spacing */
+}
+
+.local_logo {
+  margin-bottom: 10px; /* Space below logo */
+  margin-right: 250px;
+  margin-top: 10px;
+}
+
+.local_icone {
+  display: inline-flex;
+  justify-content: center; /* Center icons */
+}
+
+.conteiner2 {
+  display: flex;
+  justify-content: space-between; /* Space between logo and icons */
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+.avatar {
+  width: 25px;
+  height: 25px;
+}
+
+/* Media Queries */
+@media (max-width: 870px) {
+
+  .conteiner {
+    align-items: center; /* Center items */
+  }
+
+  .local_logo {
+    margin-right: 250px;
+  }
+
+  .local_icone {
+    display: inline-flex;
+    justify-content: center; /* Center icons */
+    padding: 10px 0px;
+  }
+}
+
+@media (max-width: 570px) {
+  .logo {
+    font-size: 1.2rem; /* Decrease font size for smaller screens */
+  }
+
+  .avatar {
+    width: 20px; /* Make avatars smaller */
+    height: 20px;
+  }
+
+  .direcao {
+    margin-bottom: 3px; /* Adjust spacing for smaller screens */
+  }
+}

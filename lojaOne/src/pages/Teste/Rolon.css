@@ -1,0 +1,160 @@
+/* Estilos globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.no-scroll {
+  overflow-x: hidden;
+}
+
+
+.coi {
+  width: 100%;
+  height: 100%;
+  padding-top: 70px;
+}
+
+.coi .null{
+  margin-left: 100px;
+}
+
+/* Estilos do Card */
+.card {
+  border-radius: 10px 8px;
+  margin: 1px;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px; /* Limite de largura para telas maiores */
+}
+
+/* Estilo da imagem do card */
+.imag-card .card {
+  width: 200px;
+  height: 200px; /* Pode ser ajustado conforme necessário */
+  object-fit: cover;
+}
+
+.imag-card {
+  /* Ajuste a largura para 100% em telas pequenas */
+   /* Altura automática para manter a proporção */
+  display: block; /* Remove espaços em branco */
+  border-radius: 10px; /* Bordas arredondadas */
+  width: 200px;
+  height: 200px;
+}
+
+/* Títulos e textos do card */
+.card h3 {
+  padding: 10px 0;
+  font-size: 1.2em; /* Tamanho de fonte padrão */
+  color: #333;
+}
+
+.card p {
+  padding: 5px 0;
+  font-size: 1em; /* Tamanho de fonte padrão */
+  color: #555;
+}
+
+/* Botões do card */
+.card .buttons {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  gap: 10px;
+}
+
+.card button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}
+
+.card input {
+  width: 50px; /* Ajustar largura do input */
+  padding: 5px; /* Corrigir espaço de padding */
+  border: 1px solid #c23030;
+  border-radius: 5px;
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 576px) {
+  .card {
+    padding: 15px; /* Ajustar padding para telas pequenas */
+    margin: 10px 1; /* Margem vertical */
+    font-size: 0.9em; /* Reduzir o tamanho da fonte */
+  }
+
+  .imag-card {
+    width: 100%; /* Imagem ocupa toda a largura */
+    height: auto; /* Altura automática para manter a proporção */
+  }
+
+  .card h3 {
+    font-size: 1.1em; /* Tamanho de fonte reduzido */
+  }
+
+  .card p {
+    font-size: 0.9em; /* Tamanho de fonte reduzido */
+  }
+
+  .card button {
+    padding: 6px 10px; /* Ajustar tamanho do botão */
+  }
+
+  .card input {
+    width: 40px; /* Ajustar largura do input */
+  }
+
+  .no-scroll {
+    overflow-x: hidden;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .card {
+    padding: 20px; /* Padding padrão para tablets */
+    font-size: 1em; /* Tamanho de fonte padrão */
+  }
+
+  .imag-card {
+    width: 75%; /* Imagem ocupa 75% da largura */
+    height: auto; /* Altura automática para manter a proporção */
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .card {
+    padding: 20px; /* Padding padrão para notebooks */
+  }
+
+  .imag-card {
+    width: 50%; /* Imagem ocupa 50% da largura */
+    height: auto; /* Altura automática para manter a proporção */
+  }
+}
+
+@media (min-width: 1200px) {
+  .card {
+    max-width: 600px; /* Limitar a largura máxima */
+  }
+
+  .imag-card {
+    width: 40%; /* Imagem ocupa 40% da largura em telas grandes */
+    height: auto; /* Altura automática para manter a proporção */
+  }
+}
